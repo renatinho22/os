@@ -1,5 +1,5 @@
 package br.com.trabalho.os.model;
 
-public class Teste {
+public class TEstantoTestnado {
 
 }
