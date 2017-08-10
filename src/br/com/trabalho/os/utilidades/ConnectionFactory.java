@@ -13,7 +13,7 @@ import javax.persistence.Persistence;
 
 public class ConnectionFactory {
 
-	private EntityManagerFactory emf = Persistence.createEntityManagerFactory("osPostgre");
+	private EntityManagerFactory emf = Persistence.createEntityManagerFactory("os");
 
 	public EntityManager getEntityManager() {
 		EntityManager em = emf.createEntityManager();
